@@ -1,0 +1,602 @@
+[
+  {
+    "id": "shaolin",
+    "name": "少林寺",
+    "novels": ["天龙八部", "倚天屠龙记", "笑傲江湖"],
+    "type": "sect",
+    "coordinates": [34.5085, 112.9413],
+    "description": "天下武功出少林，武林泰山北斗，位于河南嵩山。",
+    "characters": ["扫地僧", "方证大师", "觉远", "成昆"],
+    "skills": ["易筋经", "少林七十二绝技"]
+  },
+  {
+    "id": "wudang",
+    "name": "武当派",
+    "novels": ["倚天屠龙记", "笑傲江湖"],
+    "type": "sect",
+    "coordinates": [32.4042, 111.0022],
+    "description": "内家武学重镇，主张以柔克刚，位于湖北武当山。",
+    "characters": ["张三丰", "张无忌", "武当七侠", "冲虚道长"],
+    "skills": ["太极拳", "太极剑", "纯阳无极功"]
+  },
+  {
+    "id": "emei",
+    "name": "峨眉派",
+    "novels": ["倚天屠龙记", "笑傲江湖"],
+    "type": "sect",
+    "coordinates": [29.5242, 103.3364],
+    "description": "郭襄祖师所创，武林三大宗派之一，位于四川峨眉山。",
+    "characters": ["郭襄", "灭绝师太", "周芷若"],
+    "skills": ["峨眉九阳功", "九阴白骨爪", "四象掌"]
+  },
+  {
+    "id": "huashan",
+    "name": "华山派",
+    "novels": ["笑傲江湖", "倚天屠龙记", "碧血剑"],
+    "type": "sect",
+    "coordinates": [34.4822, 110.0827],
+    "description": "五岳剑派之一，分剑宗与气宗，位于陕西华山。",
+    "characters": ["令狐冲", "岳不群", "风清扬"],
+    "skills": ["独孤九剑", "紫霞神功", "华山剑法"]
+  },
+  {
+    "id": "guangmingding",
+    "name": "光明顶",
+    "novels": ["倚天屠龙记"],
+    "type": "sect",
+    "coordinates": [36.0000, 80.0000],
+    "description": "明教总坛所在地，位于西域昆仑山脉之中，地势险要。",
+    "characters": ["阳顶天", "杨逍", "范遥", "张无忌"],
+    "skills": ["乾坤大挪移", "圣火令武功"]
+  },
+  {
+    "id": "taohuadao",
+    "name": "桃花岛",
+    "novels": ["射雕英雄传", "神雕侠侣"],
+    "type": "landmark",
+    "coordinates": [29.8242, 122.2743],
+    "description": "东海之上的隐秘岛屿，布满奇门遁甲，落英缤纷。",
+    "characters": ["黄药师", "黄蓉", "郭靖"],
+    "skills": ["弹指神通", "落英神剑掌", "碧海潮生曲"]
+  },
+  {
+    "id": "zhongnan",
+    "name": "终南山古墓",
+    "novels": ["神雕侠侣", "射雕英雄传", "倚天屠龙记"],
+    "type": "sect",
+    "coordinates": [34.0294, 108.9746],
+    "description": "全真教重阳宫所在及古墓派发源地，位于陕西西安附近。",
+    "characters": ["王重阳", "林朝英", "小龙女", "杨过"],
+    "skills": ["玉女心经", "黯然销魂掌", "先天功"]
+  },
+  {
+    "id": "jueqinggu",
+    "name": "绝情谷",
+    "novels": ["神雕侠侣"],
+    "type": "landmark",
+    "coordinates": [31.8000, 112.0000],
+    "description": "与世隔绝的幽谷，盛产情花，隐蔽于襄阳周边的深山中。",
+    "characters": ["公孙止", "裘千尺", "公孙绿萼"],
+    "skills": ["阴阳倒乱刃法", "闭穴功"]
+  },
+  {
+    "id": "lingjiugong",
+    "name": "缥缈峰灵鹫宫",
+    "novels": ["天龙八部"],
+    "type": "sect",
+    "coordinates": [42.0000, 80.0000],
+    "description": "天山童姥的势力范围，统领三十六洞七十二岛，位于天山。",
+    "characters": ["天山童姥", "虚竹"],
+    "skills": ["天山折梅手", "天山六阳掌", "生死符"]
+  },
+  {
+    "id": "juxianzhuang",
+    "name": "聚贤庄",
+    "novels": ["天龙八部"],
+    "type": "landmark",
+    "coordinates": [34.7000, 113.6000],
+    "description": "游氏双雄的庄园，乔峰在此血战群雄，位于河南境内。",
+    "characters": ["乔峰", "游骥", "游驹", "薛慕华"],
+    "skills": ["降龙十八掌", "百战神盾"]
+  },
+  {
+    "id": "jianmenguan",
+    "name": "剑门关",
+    "novels": ["笑傲江湖"],
+    "type": "landmark",
+    "coordinates": [32.2333, 105.5667],
+    "description": "蜀道天险，一夫当关万夫莫开，群豪常途经此地。",
+    "characters": [],
+    "skills": []
+  },
+  {
+    "id": "xiangyang",
+    "name": "襄阳城",
+    "novels": ["射雕英雄传", "神雕侠侣"],
+    "type": "landmark",
+    "coordinates": [32.0089, 112.1223],
+    "description": "南宋抗金抗蒙的前线重镇，郭靖黄蓉坚守数十载。",
+    "characters": ["郭靖", "黄蓉", "郭襄"],
+    "skills": ["武穆遗书", "九阴真经"]
+  },
+  {
+    "id": "dali",
+    "name": "大理",
+    "novels": ["天龙八部", "射雕英雄传", "神雕侠侣"],
+    "type": "sect",
+    "coordinates": [25.6922, 100.1658],
+    "description": "西南边陲大国，皇室段氏以武立国，天龙寺为国寺。",
+    "characters": ["段誉", "段正淳", "一灯大师"],
+    "skills": ["六脉神剑", "一阳指", "凌波微步"]
+  },
+  {
+    "id": "junshan",
+    "name": "丐帮君山总舵",
+    "novels": ["射雕英雄传", "神雕侠侣", "天龙八部"],
+    "type": "sect",
+    "coordinates": [29.3768, 113.0039],
+    "description": "天下第一大帮丐帮的集会之地，位于洞庭湖君山岛。",
+    "characters": ["洪七公", "黄蓉", "乔峰", "鲁有脚"],
+    "skills": ["打狗棒法", "降龙十八掌"]
+  },
+  {
+    "id": "kunlun",
+    "name": "昆仑派",
+    "novels": ["倚天屠龙记", "笑傲江湖"],
+    "type": "sect",
+    "coordinates": [35.8000, 81.0000],
+    "description": "西域大派，自诩名门正道，剑法卓绝。",
+    "characters": ["何足道", "何太冲", "班淑娴"],
+    "skills": ["两仪剑法", "昆仑剑法"]
+  },
+  {
+    "id": "kongtong",
+    "name": "崆峒派",
+    "novels": ["倚天屠龙记"],
+    "type": "sect",
+    "coordinates": [35.5458, 106.5186],
+    "description": "六大门派之一，位于甘肃平凉崆峒山。",
+    "characters": ["木灵子", "唐文亮", "宗维侠"],
+    "skills": ["七伤拳"]
+  },
+  {
+    "id": "qingcheng",
+    "name": "青城派",
+    "novels": ["笑傲江湖", "天龙八部"],
+    "type": "sect",
+    "coordinates": [30.9022, 103.5684],
+    "description": "道教名山门派，位于四川青城山，剑法与暗器并重。",
+    "characters": ["余沧海", "侯人英", "洪人雄"],
+    "skills": ["松风剑法", "摧心掌", "青字九打"]
+  },
+  {
+    "id": "hengshan_north",
+    "name": "恒山派",
+    "novels": ["笑傲江湖"],
+    "type": "sect",
+    "coordinates": [39.6644, 113.7313],
+    "description": "五岳剑派之一，门人多为尼姑，位于山西北岳恒山。",
+    "characters": ["定闲师太", "定逸师太", "仪琳"],
+    "skills": ["恒山剑法", "万花剑法"]
+  },
+  {
+    "id": "hengshan_south",
+    "name": "衡山派",
+    "novels": ["笑傲江湖"],
+    "type": "sect",
+    "coordinates": [27.2989, 112.6019],
+    "description": "五岳剑派之一，精通音律与剑法，位于湖南南岳衡山。",
+    "characters": ["莫大", "刘正风"],
+    "skills": ["百变千幻云雾十三式", "回风落雁剑"]
+  },
+  {
+    "id": "taishan",
+    "name": "泰山派",
+    "novels": ["笑傲江湖"],
+    "type": "sect",
+    "coordinates": [36.2625, 117.1008],
+    "description": "五岳剑派之一，道教剑派，位于山东东岳泰山。",
+    "characters": ["天门道人", "玉玑子"],
+    "skills": ["泰山十八盘", "岱宗如何"]
+  },
+  {
+    "id": "songshan",
+    "name": "嵩山派",
+    "novels": ["笑傲江湖"],
+    "type": "sect",
+    "coordinates": [34.4900, 112.9500],
+    "description": "五岳剑派之首，野心勃勃意图吞并五岳，位于河南嵩山。",
+    "characters": ["左冷禅", "丁勉", "陆柏"],
+    "skills": ["寒冰真气", "大嵩阳神掌", "嵩山剑法"]
+  },
+  {
+    "id": "heimuya",
+    "name": "黑木崖",
+    "novels": ["笑傲江湖"],
+    "type": "sect",
+    "coordinates": [38.0000, 114.0000],
+    "description": "日月神教总坛，地势极险，位于河北境内。",
+    "characters": ["东方不败", "任我行", "任盈盈", "向问天"],
+    "skills": ["葵花宝典", "吸星大法"]
+  },
+  {
+    "id": "yanziwu",
+    "name": "燕子坞",
+    "novels": ["天龙八部"],
+    "type": "landmark",
+    "coordinates": [31.2000, 120.2000],
+    "description": "姑苏慕容氏的根据地，位于江南太湖之中，参合庄所在。",
+    "characters": ["慕容复", "慕容博", "阿朱", "阿碧"],
+    "skills": ["斗转星移", "参合指"]
+  },
+  {
+    "id": "binghuodao",
+    "name": "冰火岛",
+    "novels": ["倚天屠龙记"],
+    "type": "landmark",
+    "coordinates": [75.0000, 140.0000],
+    "description": "极北之地的火山岛，张翠山殷素素谢逊在此漂流十年。",
+    "characters": ["谢逊", "张翠山", "殷素素", "张无忌"],
+    "skills": ["七伤拳", "狮吼功"]
+  },
+  {
+    "id": "wanjiegu",
+    "name": "万劫谷",
+    "novels": ["天龙八部"],
+    "type": "landmark",
+    "coordinates": [25.7000, 100.0000],
+    "description": "钟万仇的隐居之地，谷口立有「姓段者入此谷杀无赦」石碑。",
+    "characters": ["钟万仇", "甘宝宝", "钟灵"],
+    "skills": ["闪电貂"]
+  },
+  {
+    "id": "wuliangshan",
+    "name": "无量山",
+    "novels": ["天龙八部"],
+    "type": "sect",
+    "coordinates": [24.7833, 100.5167],
+    "description": "无量剑派所在，山中有琅嬛福地，段誉在此习得神功。",
+    "characters": ["无崖子", "李秋水", "段誉"],
+    "skills": ["北冥神功", "凌波微步"]
+  },
+  {
+    "id": "tiezhangfeng",
+    "name": "铁掌峰",
+    "novels": ["射雕英雄传"],
+    "type": "sect",
+    "coordinates": [28.4500, 110.4000],
+    "description": "铁掌帮总舵所在，藏有《武穆遗书》，形如五根手指。",
+    "characters": ["裘千仞", "上官剑南"],
+    "skills": ["铁掌", "水上漂"]
+  },
+  {
+    "id": "mantuoshanzhuang",
+    "name": "曼陀山庄",
+    "novels": ["天龙八部"],
+    "type": "landmark",
+    "coordinates": [31.2500, 120.2500],
+    "description": "王语嫣一家的居所，种满茶花，建有琅嬛玉洞。",
+    "characters": ["王夫人", "王语嫣"],
+    "skills": []
+  },
+  {
+    "id": "lingshedao",
+    "name": "灵蛇岛",
+    "novels": ["倚天屠龙记"],
+    "type": "landmark",
+    "coordinates": [29.0000, 123.0000],
+    "description": "金花婆婆的海外孤岛，张无忌等曾在此与波斯三使激战。",
+    "characters": ["黛绮丝", "谢逊", "小昭"],
+    "skills": ["圣火令武功"]
+  },
+  {
+    "id": "xingxiuhai",
+    "name": "星宿海",
+    "novels": ["天龙八部"],
+    "type": "sect",
+    "coordinates": [34.9000, 97.5000],
+    "description": "星宿派大本营，位于青海黄河源头一带的沼泽湖泊群。",
+    "characters": ["丁春秋", "阿紫", "游坦之"],
+    "skills": ["化功大法", "连珠腐尸毒", "冰蚕毒掌"]
+  },
+  {
+    "id": "shenlongdao",
+    "name": "神龙岛",
+    "novels": ["鹿鼎记"],
+    "type": "sect",
+    "coordinates": [39.1000, 122.2000],
+    "description": "神龙教总坛所在，位于辽东半岛近海的孤岛上，遍布毒蛇。",
+    "characters": ["洪安通", "苏荃", "韦小宝", "胖头陀"],
+    "skills": ["化骨绵掌", "神龙八式"]
+  },
+  {
+    "id": "zijincheng",
+    "name": "紫禁城皇宫",
+    "novels": ["鹿鼎记", "书剑恩仇录"],
+    "type": "landmark",
+    "coordinates": [39.9163, 116.3971],
+    "description": "清廷权力中心，韦小宝与康熙结识之地，陈家洛亦曾潜入。",
+    "characters": ["康熙", "韦小宝", "海大富", "乾隆"],
+    "skills": ["大慈大悲千叶手", "神行百变"]
+  },
+  {
+    "id": "wutaishan",
+    "name": "五台山清凉寺",
+    "novels": ["鹿鼎记"],
+    "type": "landmark",
+    "coordinates": [38.9833, 113.5667],
+    "description": "顺治皇帝出家之所，康熙曾派韦小宝前往护驾。",
+    "characters": ["顺治", "玉林大师"],
+    "skills": []
+  },
+  {
+    "id": "yangzhou",
+    "name": "扬州丽春院",
+    "novels": ["鹿鼎记"],
+    "type": "landmark",
+    "coordinates": [32.3932, 119.4126],
+    "description": "韦小宝出生成长的地方，市井气息浓厚。",
+    "characters": ["韦小宝", "韦春花"],
+    "skills": []
+  },
+  {
+    "id": "xiakedao",
+    "name": "侠客岛",
+    "novels": ["侠客行"],
+    "type": "landmark",
+    "coordinates": [16.8300, 112.3300],
+    "description": "孤悬南海的神秘岛屿，藏有武林绝学《太玄经》，令中原武林闻风丧胆。",
+    "characters": ["龙岛主", "木岛主", "石破天", "张三", "李四"],
+    "skills": ["太玄经"]
+  },
+  {
+    "id": "lingxiaocheng",
+    "name": "凌霄城",
+    "novels": ["侠客行"],
+    "type": "sect",
+    "coordinates": [35.5000, 96.0000],
+    "description": "雪山派大本营，位于大雪山之中，城墙全由冰雪筑成，晶莹生辉。",
+    "characters": ["白自在", "白万剑", "史小翠"],
+    "skills": ["雪山剑法", "金乌刀法"]
+  },
+  {
+    "id": "changlebang",
+    "name": "长乐帮",
+    "novels": ["侠客行"],
+    "type": "sect",
+    "coordinates": [32.2044, 119.4558],
+    "description": "江南第一大帮会，总舵设在镇江，石破天曾在此被误认为帮主。",
+    "characters": ["石中玉", "贝海石", "侍剑"],
+    "skills": ["五行六合掌"]
+  },
+  {
+    "id": "jingzhou_tianning",
+    "name": "荆州天宁寺",
+    "novels": ["连城诀"],
+    "type": "landmark",
+    "coordinates": [30.3352, 112.2405],
+    "description": "梁元帝宝藏的埋藏地，大佛腹内藏有涂满剧毒的金银财宝。",
+    "characters": ["狄云", "万震山", "凌退思", "戚长发"],
+    "skills": ["连城剑法", "神照经"]
+  },
+  {
+    "id": "zangbianxuegu",
+    "name": "藏边雪谷",
+    "novels": ["连城诀"],
+    "type": "landmark",
+    "coordinates": [29.5000, 98.0000],
+    "description": "川藏交界的雪山深谷，狄云与水笙被困于此度过严冬。",
+    "characters": ["狄云", "水笙", "血刀老祖", "花铁干"],
+    "skills": ["血刀刀法"]
+  },
+  {
+    "id": "xuedaomen",
+    "name": "血刀门",
+    "novels": ["连城诀"],
+    "type": "sect",
+    "coordinates": [33.0000, 95.0000],
+    "description": "青海黑教的分支，门下弟子皆为穷凶极恶之徒，武功诡异邪恶。",
+    "characters": ["血刀老祖", "宝象"],
+    "skills": ["血刀刀法"]
+  },
+  {
+    "id": "yubishanzhuang",
+    "name": "玉笔山庄",
+    "novels": ["雪山飞狐"],
+    "type": "landmark",
+    "coordinates": [42.0333, 128.0500],
+    "description": "位于长白山极寒之地的山庄，群雄在此追寻闯王宝藏。",
+    "characters": ["胡斐", "苗人凤", "杜希孟"],
+    "skills": ["胡家刀法", "苗家剑法"]
+  },
+  {
+    "id": "yaowanggu",
+    "name": "药王谷",
+    "novels": ["飞狐外传"],
+    "type": "sect",
+    "coordinates": [28.5000, 109.0000],
+    "description": "毒手药王的隐居之地，遍布奇花异草与毒物，阵法森严。",
+    "characters": ["无嗔大师", "程灵素", "石万嗔"],
+    "skills": ["药王神篇", "七心海棠"]
+  },
+  {
+    "id": "shangjiabao",
+    "name": "商家堡",
+    "novels": ["飞狐外传"],
+    "type": "landmark",
+    "coordinates": [36.6512, 117.1200],
+    "description": "位于山东武定，少年胡斐在此初露锋芒，结识赵半山。",
+    "characters": ["胡斐", "赵半山", "商老太", "商宝震"],
+    "skills": ["八卦刀", "太极拳"]
+  },
+  {
+    "id": "gaochang",
+    "name": "高昌迷宫",
+    "novels": ["白马啸西风"],
+    "type": "landmark",
+    "coordinates": [42.8533, 89.5222],
+    "description": "新疆大漠中的地下古城废墟，藏有高昌国的典籍与宝物。",
+    "characters": ["李文秀", "苏普", "华辉"],
+    "skills": ["流星锤", "毒针"]
+  },
+  {
+    "id": "kuaiji",
+    "name": "会稽",
+    "novels": ["越女剑"],
+    "type": "landmark",
+    "coordinates": [29.9958, 120.5861],
+    "description": "春秋时期越国国都，阿青在此牧羊，并凭借竹棒击败三千越甲。",
+    "characters": ["阿青", "范蠡", "西施"],
+    "skills": ["越女剑法"]
+  },
+  {
+    "id": "wudujiao",
+    "name": "五毒教",
+    "novels": ["碧血剑", "笑傲江湖"],
+    "type": "sect",
+    "coordinates": [25.0406, 102.7053],
+    "description": "云南苗疆的神秘教派，善使蛇、蜈蚣、蜘蛛等五毒伤人。",
+    "characters": ["何铁手", "蓝凤凰"],
+    "skills": ["软红蛛索", "含沙射影"]
+  },
+  {
+    "id": "tiejianmen",
+    "name": "铁剑门",
+    "novels": ["碧血剑", "鹿鼎记"],
+    "type": "sect",
+    "coordinates": [30.4833, 117.8000],
+    "description": "木桑道长所属门派，武功以轻功和暗器见长。",
+    "characters": ["木桑道长", "玉真子", "九难"],
+    "skills": ["神行百变", "漫天花雨"]
+  },
+  {
+    "id": "muwangfu",
+    "name": "沐王府",
+    "novels": ["鹿鼎记"],
+    "type": "sect",
+    "coordinates": [25.1000, 102.8000],
+    "description": "明朝开国功臣沐英的后人，在云南势力庞大，致力于反清复明。",
+    "characters": ["沐剑声", "沐剑屏", "柳大洪"],
+    "skills": ["沐家拳", "沐家剑"]
+  },
+  {
+    "id": "tiandihui",
+    "name": "天地会总舵",
+    "novels": ["鹿鼎记", "碧血剑"],
+    "type": "sect",
+    "coordinates": [22.9908, 120.2133],
+    "description": "延平郡王郑成功创立的抗清组织，陈近南为总舵主。",
+    "characters": ["陈近南", "郑克塽", "风际中"],
+    "skills": ["凝血神爪"]
+  },
+  {
+    "id": "nanshaolin",
+    "name": "南少林",
+    "novels": ["鹿鼎记", "书剑恩仇录"],
+    "type": "sect",
+    "coordinates": [25.5484, 118.8872],
+    "description": "位于福建莆田，天地会发源地之一，抗清义士的庇护所。",
+    "characters": ["天虹大师", "陈家洛"],
+    "skills": ["少林南拳"]
+  },
+  {
+    "id": "wangwupai",
+    "name": "王屋派",
+    "novels": ["鹿鼎记"],
+    "type": "sect",
+    "coordinates": [35.1833, 112.2667],
+    "description": "明朝残部退守河南王屋山建立的门派，后归降韦小宝。",
+    "characters": ["司徒伯雷", "曾柔"],
+    "skills": []
+  },
+  {
+    "id": "haining",
+    "name": "海宁潮",
+    "novels": ["书剑恩仇录"],
+    "type": "landmark",
+    "coordinates": [30.5097, 120.6978],
+    "description": "浙江海宁陈阁老故居所在地，陈家洛与乾隆观潮论天下之处。",
+    "characters": ["陈家洛", "乾隆"],
+    "skills": ["百花错拳"]
+  },
+  {
+    "id": "liuheta",
+    "name": "杭州六和塔",
+    "novels": ["书剑恩仇录"],
+    "type": "landmark",
+    "coordinates": [30.1983, 120.1264],
+    "description": "红花会群雄在此将乾隆皇帝囚禁，逼其立下反清复明的誓言。",
+    "characters": ["陈家洛", "无尘道长", "赵半山"],
+    "skills": ["追魂夺命剑"]
+  },
+  {
+    "id": "huibu",
+    "name": "回疆部落",
+    "novels": ["书剑恩仇录"],
+    "type": "landmark",
+    "coordinates": [38.4167, 77.2500],
+    "description": "位于西域的大漠绿洲，木卓伦部族的聚居地，红花会盟友。",
+    "characters": ["霍青桐", "香香公主", "木卓伦"],
+    "skills": ["三分剑术"]
+  },
+  {
+    "id": "tiedanzhuang",
+    "name": "铁胆庄",
+    "novels": ["书剑恩仇录"],
+    "type": "sect",
+    "coordinates": [36.0500, 103.8000],
+    "description": "西北武林名宿周仲英的庄园，红花会曾在此借宿并卷入纷争。",
+    "characters": ["周仲英", "周绮", "徐天宏"],
+    "skills": []
+  },
+  {
+    "id": "jinyang",
+    "name": "晋阳",
+    "novels": ["鸳鸯刀"],
+    "type": "landmark",
+    "coordinates": [37.8706, 112.5489],
+    "description": "威信镖局押送鸳鸯刀的起始地之一，江湖豪杰在此汇聚抢夺宝刀。",
+    "characters": ["袁冠南", "林玉渊", "萧半和"],
+    "skills": ["夫妻刀法"]
+  },
+  {
+    "id": "shengjing",
+    "name": "盛京皇宫",
+    "novels": ["碧血剑"],
+    "type": "landmark",
+    "coordinates": [41.8057, 123.4315],
+    "description": "满清入关前的都城，袁承志曾潜入此地刺杀皇太极。",
+    "characters": ["皇太极", "多尔衮", "袁承志"],
+    "skills": ["混元功"]
+  },
+  {
+    "id": "boniguo",
+    "name": "渤泥国",
+    "novels": ["碧血剑"],
+    "type": "landmark",
+    "coordinates": [4.5000, 114.5000],
+    "description": "东南亚海外异国（今文莱），袁承志心灰意冷后带领群雄隐居于此。",
+    "characters": ["袁承志", "温青青"],
+    "skills": ["金蛇剑法"]
+  },
+  {
+    "id": "yakesa",
+    "name": "雅克萨",
+    "novels": ["鹿鼎记"],
+    "type": "landmark",
+    "coordinates": [53.3833, 124.0833],
+    "description": "黑龙江畔的边防重镇，韦小宝率军在此使用水枪击败罗刹国火枪手。",
+    "characters": ["韦小宝", "双儿", "苏菲亚"],
+    "skills": []
+  },
+  {
+    "id": "tongchidao",
+    "name": "通吃岛",
+    "novels": ["鹿鼎记"],
+    "type": "landmark",
+    "coordinates": [25.8000, 123.5000],
+    "description": "韦小宝被困海外时命名的岛屿，在此与七个老婆度过数年时光。",
+    "characters": ["韦小宝", "建宁公主", "阿珂", "曾柔"],
+    "skills": []
+  }
+]

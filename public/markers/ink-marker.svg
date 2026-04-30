@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <filter id="bleed" x="-30%" y="-30%" width="160%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="4" seed="2" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="2" result="rough"/>
+      <feDisplacementMap in="SourceGraphic" in2="rough" scale="1.5"/>
+    </filter>
+    <radialGradient id="ink" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1a0f0a" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#2c1810" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#3d2b1f" stop-opacity="0.35"/>
+    </radialGradient>
+  </defs>
+  <!-- Shadow/bleed ring -->
+  <circle cx="22" cy="22" r="12" fill="#2c1810" opacity="0.15" filter="url(#rough)"/>
+  <!-- Main ink dot -->
+  <circle cx="22" cy="24" r="10.5" fill="url(#ink)" filter="url(#bleed)"/>
+  <!-- Dry brush highlight -->
+  <ellipse cx="18" cy="19" rx="4" ry="3" fill="#4a3728" opacity="0.15" filter="url(#rough)"/>
+</svg>

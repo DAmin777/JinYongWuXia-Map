@@ -1,0 +1,350 @@
+[
+  {
+    "id": "guojing", "name": "郭靖", "nickname": "北侠",
+    "avatar_url": "https://ui-avatars.com/api/?name=郭靖&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "description": "侠之大者，为国为民。镇守襄阳数十载的武林领袖。",
+    "skills": ["降龙十八掌", "九阴真经", "双手互搏", "空明拳"], "faction": "正派/大宋",
+    "trajectory": [
+      {"location_id":"taohuadao","stage":"拜师学艺","description":"登桃花岛，得洪七公传授降龙十八掌，与黄蓉定情"},
+      {"location_id":"junshan","stage":"君山大会","description":"丐帮君山大会上力挫群雄，助黄蓉夺得丐帮帮主之位"},
+      {"location_id":"huashan","stage":"华山论剑","description":"第二次华山论剑，与东邪、北丐激战，奠定武林地位"},
+      {"location_id":"zhongnan","stage":"英雄聚义","description":"携杨过前往终南山全真教学艺"},
+      {"location_id":"xiangyang","stage":"镇守襄阳","description":"一生坚守襄阳抵抗蒙古，践行侠之大者为国为民"}
+    ]
+  },
+  {
+    "id": "zhangwuji", "name": "张无忌", "nickname": "明教教主",
+    "avatar_url": "https://ui-avatars.com/api/?name=张无忌&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "description": "身怀多项绝世武功，性格宽厚仁慈，统领明教群雄抗元。",
+    "skills": ["九阳神功", "乾坤大挪移", "太极拳剑", "圣火令武功"], "faction": "正派/明教",
+    "trajectory": [
+      {"location_id":"binghuodao","stage":"出生之地","description":"在极北冰火岛出生，与父母及谢逊在此度过童年"},
+      {"location_id":"wudang","stage":"少年学艺","description":"回归中土后在武当山随张三丰学艺，身中玄冥神掌"},
+      {"location_id":"guangmingding","stage":"力战六大派","description":"光明顶上独战六大门派掌门，被推举为明教教主"},
+      {"location_id":"lingshedao","stage":"海外历险","description":"前往灵蛇岛与波斯明教风云月三使激战"},
+      {"location_id":"shaolin","stage":"屠狮大会","description":"少林寺屠狮大会上救出谢逊，化解武林浩劫"}
+    ]
+  },
+  {
+    "id": "linghuchong", "name": "令狐冲", "nickname": "华山大弟子",
+    "avatar_url": "https://ui-avatars.com/api/?name=令狐冲&background=random&color=fff",
+    "novels": ["笑傲江湖"], "description": "生性豁达不羁，嗜酒如命，历经坎坷最终与任盈盈笑傲江湖。",
+    "skills": ["独孤九剑", "吸星大法", "易筋经"], "faction": "正派/隐士",
+    "trajectory": [
+      {"location_id":"huashan","stage":"华山弟子","description":"在华山思过崖偶遇风清扬，学得独孤九剑绝学"},
+      {"location_id":"shaolin","stage":"营救盈盈","description":"率领群雄围攻少林寺，营救被困的任盈盈"},
+      {"location_id":"heimuya","stage":"决战东方","description":"登上黑木崖，与任我行等人联手决战东方不败"},
+      {"location_id":"songshan","stage":"五岳并派","description":"在嵩山封禅台上击败岳不群，阻止五岳剑派合并"},
+      {"location_id":"hengshan_north","stage":"出任掌门","description":"接任恒山派掌门，成为五岳剑派中唯一的男性掌门人"}
+    ]
+  },
+  {
+    "id": "weixiaobao", "name": "韦小宝", "nickname": "鹿鼎公",
+    "avatar_url": "https://ui-avatars.com/api/?name=韦小宝&background=random&color=fff",
+    "novels": ["鹿鼎记"], "description": "出身市井，机智狡猾，周旋于皇宫、天地会与神龙教之间。",
+    "skills": ["神行百变", "火枪", "撒石灰", "蒙汗药"], "faction": "中立/朝廷/天地会",
+    "trajectory": [
+      {"location_id":"yangzhou","stage":"出身之地","description":"在扬州丽春院出生，自幼混迹市井"},
+      {"location_id":"zijincheng","stage":"入宫为官","description":"假扮太监小桂子进入紫禁城，与康熙结下深厚情谊"},
+      {"location_id":"shenlongdao","stage":"白龙使","description":"前往神龙岛，被洪安通任命为白龙使"},
+      {"location_id":"wutaishan","stage":"护驾之行","description":"奉康熙密旨前往五台山保护出家的顺治皇帝"},
+      {"location_id":"tongchidao","stage":"海岛隐居","description":"携七位夫人隐居通吃岛，度过数年逍遥快活时光"}
+    ]
+  },
+  {
+    "id": "huangrong", "name": "黄蓉", "nickname": "女诸葛",
+    "avatar_url": "https://ui-avatars.com/api/?name=黄蓉&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "xiangyang",
+    "related_locations": ["taohuadao", "junshan"],
+    "description": "冰雪聪明，丐帮首位女帮主，辅佐郭靖保卫襄阳。",
+    "skills": ["打狗棒法", "落英神剑掌", "兰花拂穴手"], "faction": "正派/大宋"
+  },
+  {
+    "id": "yangguo", "name": "杨过", "nickname": "西狂 / 神雕侠",
+    "avatar_url": "https://ui-avatars.com/api/?name=杨过&background=random&color=fff",
+    "novels": ["神雕侠侣"], "core_location_id": "zhongnan",
+    "related_locations": ["jueqinggu", "xiangyang"],
+    "description": "狂傲不羁，至情至性，与小龙女谱写绝世旷古之恋。",
+    "skills": ["黯然销魂掌", "玄铁剑法", "玉女心经"], "faction": "正派/中立"
+  },
+  {
+    "id": "xiaolongnv", "name": "小龙女", "nickname": "古墓派掌门",
+    "avatar_url": "https://ui-avatars.com/api/?name=小龙女&background=random&color=fff",
+    "novels": ["神雕侠侣"], "core_location_id": "zhongnan",
+    "related_locations": ["jueqinggu"],
+    "description": "清丽脱俗，不谙世事，自幼生活在终南山古墓之中。",
+    "skills": ["玉女素心剑法", "玉蜂针", "天罗地网势"], "faction": "正派/隐士"
+  },
+  {
+    "id": "huangyaoshi", "name": "黄药师", "nickname": "东邪",
+    "avatar_url": "https://ui-avatars.com/api/?name=黄药师&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "taohuadao",
+    "related_locations": ["xiangyang"],
+    "description": "桃花岛主，性情孤僻，精通琴棋书画与奇门遁甲。",
+    "skills": ["弹指神通", "落英神剑掌", "碧海潮生曲"], "faction": "中立/隐士"
+  },
+  {
+    "id": "ouyangfeng", "name": "欧阳锋", "nickname": "西毒",
+    "avatar_url": "https://ui-avatars.com/api/?name=欧阳锋&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "huashan",
+    "related_locations": ["taohuadao", "zhongnan"],
+    "description": "白驼山庄主人，心狠手辣，为求武功天下第一不择手段。",
+    "skills": ["蛤蟆功", "灵蛇拳", "逆练九阴真经"], "faction": "邪派"
+  },
+  {
+    "id": "hongqigong", "name": "洪七公", "nickname": "北丐",
+    "avatar_url": "https://ui-avatars.com/api/?name=洪七公&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "junshan",
+    "related_locations": ["taohuadao", "huashan"],
+    "description": "丐帮帮主，贪吃天下美食，为人正义禀然。",
+    "skills": ["降龙十八掌", "打狗棒法"], "faction": "正派"
+  },
+  {
+    "id": "yideng", "name": "一灯大师", "nickname": "南帝",
+    "avatar_url": "https://ui-avatars.com/api/?name=一灯&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "dali",
+    "related_locations": ["xiangyang", "huashan"],
+    "description": "原大理国皇帝段智兴，后因故出家为僧，慈悲为怀。",
+    "skills": ["一阳指", "先天功"], "faction": "正派"
+  },
+  {
+    "id": "wangchongyang", "name": "王重阳", "nickname": "中神通",
+    "avatar_url": "https://ui-avatars.com/api/?name=王重阳&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "zhongnan",
+    "related_locations": ["huashan"],
+    "description": "全真教祖师，第一次华山论剑天下第一。",
+    "skills": ["先天功", "全真剑法"], "faction": "正派"
+  },
+  {
+    "id": "zhoubotong", "name": "周伯通", "nickname": "老顽童",
+    "avatar_url": "https://ui-avatars.com/api/?name=周伯通&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "zhongnan",
+    "related_locations": ["taohuadao", "jueqinggu"],
+    "description": "王重阳师弟，武痴，性格如孩童般天真烂漫。",
+    "skills": ["空明拳", "双手互搏", "九阴真经"], "faction": "正派"
+  },
+  {
+    "id": "jinlunfawang", "name": "金轮法王", "nickname": "蒙古国师",
+    "avatar_url": "https://ui-avatars.com/api/?name=金轮&background=random&color=fff",
+    "novels": ["神雕侠侣"], "core_location_id": "xiangyang",
+    "related_locations": ["zhongnan", "jueqinggu"],
+    "description": "蒙古密宗高僧，杨过与郭靖的劲敌。",
+    "skills": ["龙象般若功", "五轮大转"], "faction": "反派/蒙古"
+  },
+  {
+    "id": "qiuqianren", "name": "裘千仞", "nickname": "铁掌水上漂",
+    "avatar_url": "https://ui-avatars.com/api/?name=裘千仞&background=random&color=fff",
+    "novels": ["射雕英雄传", "神雕侠侣"], "core_location_id": "tiezhangfeng",
+    "related_locations": ["xiangyang"],
+    "description": "铁掌帮帮主，武功极高但依附金国，后被一灯大师点化出家。",
+    "skills": ["铁掌", "水上漂"], "faction": "反派"
+  },
+  {
+    "id": "zhaomin", "name": "赵敏", "nickname": "绍敏郡主",
+    "avatar_url": "https://ui-avatars.com/api/?name=赵敏&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "core_location_id": "guangmingding",
+    "related_locations": ["wudang", "shaolin"],
+    "description": "汝阳王之女，机智百变，敢爱敢恨。",
+    "skills": ["天地同寿", "各类各派招式"], "faction": "中立/朝廷"
+  },
+  {
+    "id": "zhouzhiruo", "name": "周芷若", "nickname": "峨眉掌门",
+    "avatar_url": "https://ui-avatars.com/api/?name=周芷若&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "core_location_id": "emei",
+    "related_locations": ["shaolin", "wudang"],
+    "description": "外表清丽温婉，内心却因师命和情伤逐渐黑化。",
+    "skills": ["九阴白骨爪", "白蟒鞭法", "峨眉九阳功"], "faction": "正派/亦正亦邪"
+  },
+  {
+    "id": "zhangsanfeng", "name": "张三丰", "nickname": "武当太极",
+    "avatar_url": "https://ui-avatars.com/api/?name=张三丰&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "core_location_id": "wudang",
+    "related_locations": ["shaolin"],
+    "description": "一代宗师，武当派创派祖师，仙风道骨。",
+    "skills": ["太极拳", "太极剑", "纯阳无极功"], "faction": "正派"
+  },
+  {
+    "id": "miejueshitai", "name": "灭绝师太", "nickname": "峨眉第三代掌门",
+    "avatar_url": "https://ui-avatars.com/api/?name=灭绝&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "core_location_id": "emei",
+    "related_locations": ["guangmingding"],
+    "description": "性格刚烈，极度仇恨明教，手持倚天剑威震武林。",
+    "skills": ["灭绝双剑", "四象掌", "峨眉九阳功"], "faction": "正派"
+  },
+  {
+    "id": "xiexun", "name": "谢逊", "nickname": "金毛狮王",
+    "avatar_url": "https://ui-avatars.com/api/?name=谢逊&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "core_location_id": "binghuodao",
+    "related_locations": ["guangmingding", "shaolin"],
+    "description": "明教四大法王之一，因全家被成昆灭门而狂性大发。",
+    "skills": ["七伤拳", "狮吼功"], "faction": "明教"
+  },
+  {
+    "id": "yangxiao", "name": "杨逍", "nickname": "光明左使",
+    "avatar_url": "https://ui-avatars.com/api/?name=杨逍&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "core_location_id": "guangmingding",
+    "related_locations": ["kunlun"],
+    "description": "风流潇洒，孤傲自负，才略过人，代理明教教务多年。",
+    "skills": ["乾坤大挪移", "弹指神通"], "faction": "明教"
+  },
+  {
+    "id": "chengkun", "name": "成昆", "nickname": "混元霹雳手",
+    "avatar_url": "https://ui-avatars.com/api/?name=成昆&background=random&color=fff",
+    "novels": ["倚天屠龙记"], "core_location_id": "shaolin",
+    "related_locations": ["guangmingding"],
+    "description": "谢逊之师，心机深沉，潜伏少林挑拨六大派与明教火并。",
+    "skills": ["幻阴指", "混元功"], "faction": "反派"
+  },
+  {
+    "id": "qiaofeng", "name": "乔峰", "nickname": "北乔峰",
+    "avatar_url": "https://ui-avatars.com/api/?name=乔峰&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "junshan",
+    "related_locations": ["juxianzhuang", "shaolin"],
+    "description": "豪气干云，武功盖世，悲剧英雄，一生追寻身世之谜。",
+    "skills": ["降龙十八掌", "擒龙功", "太祖长拳"], "faction": "正派/辽国"
+  },
+  {
+    "id": "duanyu", "name": "段誉", "nickname": "大理世子",
+    "avatar_url": "https://ui-avatars.com/api/?name=段誉&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "dali",
+    "related_locations": ["wuliangshan", "mantuoshanzhuang"],
+    "description": "温文尔雅，痴情不悔，机缘巧合下习得绝世神功。",
+    "skills": ["六脉神剑", "凌波微步", "北冥神功"], "faction": "正派"
+  },
+  {
+    "id": "xuzhu", "name": "虚竹", "nickname": "灵鹫宫主",
+    "avatar_url": "https://ui-avatars.com/api/?name=虚竹&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "lingjiugong",
+    "related_locations": ["shaolin"],
+    "description": "本性愚钝慈悲的少林小和尚，因破除珍珑棋局获得逍遥派百年功力。",
+    "skills": ["天山折梅手", "天山六阳掌", "小无相功", "生死符"], "faction": "正派/逍遥派"
+  },
+  {
+    "id": "murongfu", "name": "慕容复", "nickname": "南慕容",
+    "avatar_url": "https://ui-avatars.com/api/?name=慕容复&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "yanziwu",
+    "related_locations": ["shaolin"],
+    "description": "姑苏慕容氏传人，一生致力于复辟大燕国，最终执念成狂。",
+    "skills": ["斗转星移", "参合指"], "faction": "反派"
+  },
+  {
+    "id": "jiumozhi", "name": "鸠摩智", "nickname": "大轮明王",
+    "avatar_url": "https://ui-avatars.com/api/?name=鸠摩智&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "shaolin",
+    "related_locations": ["dali", "yanziwu"],
+    "description": "吐蕃国师，武学奇才，对中原绝学充满贪念，最终武功尽失而顿悟。",
+    "skills": ["火焰刀", "小无相功", "少林七十二绝技"], "faction": "反派/吐蕃"
+  },
+  {
+    "id": "tianshantonglao", "name": "天山童姥", "nickname": "童姥",
+    "avatar_url": "https://ui-avatars.com/api/?name=童姥&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "lingjiugong",
+    "related_locations": ["wuliangshan"],
+    "description": "逍遥派大弟子，因练功走火入魔身材如女童。",
+    "skills": ["八荒六合唯我独尊功", "天山折梅手", "生死符"], "faction": "亦正亦邪"
+  },
+  {
+    "id": "dingchunqiu", "name": "丁春秋", "nickname": "星宿老仙",
+    "avatar_url": "https://ui-avatars.com/api/?name=丁春秋&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "xingxiuhai",
+    "related_locations": ["shaolin", "juxianzhuang"],
+    "description": "欺师灭祖，创立星宿派，擅长用毒，极度虚荣喜人奉承。",
+    "skills": ["化功大法", "连珠腐尸毒"], "faction": "邪派"
+  },
+  {
+    "id": "saodiseng", "name": "扫地僧", "nickname": "无名老僧",
+    "avatar_url": "https://ui-avatars.com/api/?name=扫地僧&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "shaolin",
+    "related_locations": [],
+    "description": "隐藏在少林藏经阁的绝顶高手，轻松化解萧远山与慕容博的生死恩怨。",
+    "skills": ["三尺气墙", "少林绝技"], "faction": "正派/高僧"
+  },
+  {
+    "id": "duanzhengchun", "name": "段正淳", "nickname": "镇南王",
+    "avatar_url": "https://ui-avatars.com/api/?name=段正淳&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "dali",
+    "related_locations": ["wanjiegu"],
+    "description": "大理国王爷，处处留情，有众多红颜知己，最终为情自杀。",
+    "skills": ["一阳指", "段家剑法"], "faction": "正派"
+  },
+  {
+    "id": "murongbo", "name": "慕容博", "nickname": "燕国后裔",
+    "avatar_url": "https://ui-avatars.com/api/?name=慕容博&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "yanziwu",
+    "related_locations": ["shaolin"],
+    "description": "慕容复之父，假死潜伏少林，为复国不惜挑起雁门关血案。",
+    "skills": ["斗转星移", "参合指"], "faction": "反派"
+  },
+  {
+    "id": "xiaoyuanshan", "name": "萧远山", "nickname": "契丹武士",
+    "avatar_url": "https://ui-avatars.com/api/?name=萧远山&background=random&color=fff",
+    "novels": ["天龙八部"], "core_location_id": "shaolin",
+    "related_locations": ["juxianzhuang"],
+    "description": "乔峰之父，因雁门关惨案痛失爱妻，潜伏少林三十年伺机报仇。",
+    "skills": ["伏魔杖法", "般若掌"], "faction": "亦正亦邪"
+  },
+  {
+    "id": "renyingying", "name": "任盈盈", "nickname": "圣姑",
+    "avatar_url": "https://ui-avatars.com/api/?name=任盈盈&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "heimuya",
+    "related_locations": ["shaolin", "huashan"],
+    "description": "日月神教圣姑，容貌极美，精通音律，对令狐冲情深义重。",
+    "skills": ["日月神教武功", "清心普善咒"], "faction": "邪教/中立"
+  },
+  {
+    "id": "dongfangbubai", "name": "东方不败", "nickname": "日出东方",
+    "avatar_url": "https://ui-avatars.com/api/?name=东方不败&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "heimuya",
+    "related_locations": [],
+    "description": "篡夺日月神教教主之位，自宫练习葵花宝典，武功天下第一。",
+    "skills": ["葵花宝典", "绣花针"], "faction": "反派/邪教"
+  },
+  {
+    "id": "yuebuqun", "name": "岳不群", "nickname": "君子剑",
+    "avatar_url": "https://ui-avatars.com/api/?name=岳不群&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "huashan",
+    "related_locations": ["songshan"],
+    "description": "华山派掌门，满口仁义道德，实则伪善阴险。",
+    "skills": ["紫霞神功", "辟邪剑法", "华山剑法"], "faction": "反派"
+  },
+  {
+    "id": "renwoxing", "name": "任我行", "nickname": "神教教主",
+    "avatar_url": "https://ui-avatars.com/api/?name=任我行&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "heimuya",
+    "related_locations": ["shaolin"],
+    "description": "前任日月神教教主，被东方不败篡位囚禁于西湖牢底。",
+    "skills": ["吸星大法", "日月神教武功"], "faction": "反派/邪教"
+  },
+  {
+    "id": "zuolengchan", "name": "左冷禅", "nickname": "五岳盟主",
+    "avatar_url": "https://ui-avatars.com/api/?name=左冷禅&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "songshan",
+    "related_locations": ["huashan"],
+    "description": "嵩山派掌门，野心极大，意图合并五岳剑派。",
+    "skills": ["寒冰真气", "大嵩阳神掌"], "faction": "反派"
+  },
+  {
+    "id": "fengqingyang", "name": "风清扬", "nickname": "剑宗前辈",
+    "avatar_url": "https://ui-avatars.com/api/?name=风清扬&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "huashan",
+    "related_locations": [],
+    "description": "华山剑宗名宿，隐居思过崖，将独孤九剑传授给令狐冲。",
+    "skills": ["独孤九剑", "华山剑法"], "faction": "正派/隐士"
+  },
+  {
+    "id": "linpingzhi", "name": "林平之", "nickname": "福威镖局少镖头",
+    "avatar_url": "https://ui-avatars.com/api/?name=林平之&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "huashan",
+    "related_locations": ["qingcheng"],
+    "description": "本是富家公子，因家传辟邪剑谱遭灭门，为报仇逐渐走向偏执疯狂。",
+    "skills": ["辟邪剑法"], "faction": "反派"
+  },
+  {
+    "id": "yucanghai", "name": "余沧海", "nickname": "青城掌门",
+    "avatar_url": "https://ui-avatars.com/api/?name=余沧海&background=random&color=fff",
+    "novels": ["笑傲江湖"], "core_location_id": "qingcheng",
+    "related_locations": ["huashan"],
+    "description": "青城派掌门，觊觎林家辟邪剑谱，手段极其残忍卑劣。",
+    "skills": ["松风剑法", "摧心掌", "青字九打"], "faction": "反派"
+  }
+]
