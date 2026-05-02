@@ -17,12 +17,13 @@ export default function ControlPanel({
 }) {
   return (
     <div
-      className="absolute top-6 left-6 z-[1000] rounded-xl shadow-2xl px-5 py-4 w-[240px] backdrop-blur-md border flex flex-col"
+      className="absolute top-6 left-6 z-[1000] rounded-xl shadow-2xl px-5 py-4 backdrop-blur-md border flex flex-col
+                 w-[calc(100vw-24px)] max-h-[45vh]
+                 sm:w-[240px] sm:max-h-[calc(100vh-48px)]"
       style={{
         backgroundColor: 'rgba(244, 234, 222, 0.90)',
         borderColor: '#c4b998',
         color: '#2c1810',
-        maxHeight: 'calc(100vh - 48px)',
       }}
     >
       {/* Fixed header area */}

@@ -115,7 +115,7 @@ export default function App() {
         onClose={() => { setSelectedLocation(null); setSelectedCharacterId('') }}
       />
       <div
-        className="absolute bottom-2 left-1/2 -translate-x-1/2 z-[1000] text-[11px] text-center px-4 py-1 rounded"
+        className="absolute bottom-2 left-1/2 -translate-x-1/2 z-[1000] text-[10px] text-center px-3 py-0.5 rounded hidden sm:block"
         style={{
           color: '#8b7355',
           backgroundColor: 'rgba(244,234,222,0.85)',

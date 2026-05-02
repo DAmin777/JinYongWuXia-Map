@@ -15,7 +15,7 @@ export default function Sidebar({ location, character, onClose }) {
       }
     >
       <div
-        className="w-[300px] h-full overflow-y-auto shadow-2xl border-l"
+        className="w-[100vw] sm:w-[300px] h-full overflow-y-auto shadow-2xl border-l"
         style={{
           backgroundColor: '#f4eade',
           borderColor: '#c4b998',
