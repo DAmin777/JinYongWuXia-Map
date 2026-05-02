@@ -10,6 +10,10 @@ export default function ControlPanel({
   selectedCharacterId,
   onCharacterChange,
   characters,
+  selectedNovels,
+  onNovelToggle,
+  novelList,
+  filteredCharacters,
 }) {
   return (
     <div
@@ -29,6 +33,27 @@ export default function ControlPanel({
         <p className="text-xs mb-3 font-xiaowei" style={{ color: '#8b7355' }}>
           探索金庸武侠世界的每一寸江湖
         </p>
+
+        {/* Novel filter tags */}
+        <div className="flex flex-wrap gap-1 mb-3 max-h-[72px] overflow-y-auto">
+          {novelList.map((novel) => {
+            const isActive = selectedNovels.includes(novel)
+            return (
+              <button
+                key={novel}
+                onClick={() => onNovelToggle(novel)}
+                className="px-2 py-0.5 rounded text-[10px] font-xiaowei border transition-all duration-200"
+                style={{
+                  backgroundColor: isActive ? '#2c1810' : 'rgba(250, 246, 239, 0.7)',
+                  borderColor: isActive ? '#2c1810' : '#c4b998',
+                  color: isActive ? '#f4eade' : '#4a3728',
+                }}
+              >
+                {novel.length > 4 ? novel.slice(0, 4) + '…' : novel}
+              </button>
+            )
+          })}
+        </div>
 
         {/* Filter buttons */}
         <div className="flex gap-1.5 mb-3">
@@ -59,7 +84,12 @@ export default function ControlPanel({
       <div
         className="flex flex-col gap-1.5 overflow-y-auto pr-1 flex-1 min-h-0"
       >
-        {characters.map((ch) => {
+        {filteredCharacters.length === 0 && (
+          <p className="text-xs text-center py-4" style={{ color: '#8b7355' }}>
+            未找到相关人物
+          </p>
+        )}
+        {filteredCharacters.map((ch) => {
           const isSelected = selectedCharacterId === ch.id
           return (
             <button

@@ -11,6 +11,26 @@ const INK_MARKER = new L.Icon({
   popupAnchor: [0, -14],
 })
 
+function buildLabeledMarker(location) {
+  return L.divIcon({
+    className: '',
+    html: `<div style="display:flex;align-items:center;gap:4px;white-space:nowrap;">
+      <img src="/markers/ink-marker.svg" width="28" height="28" style="filter:drop-shadow(0 1px 2px rgba(0,0,0,0.3));" />
+      <span style="
+        font-family:'ZCOOL XiaoWei',serif;
+        font-size:12px;
+        color:#2c1810;
+        background:rgba(244,234,222,0.85);
+        padding:1px 6px;
+        border-radius:3px;
+        letter-spacing:0.5px;
+      ">${location.name}</span>
+    </div>`,
+    iconSize: null,
+    iconAnchor: [14, 14],
+  })
+}
+
 const VERMILION = '#c23531'
 
 // ── Label icon for each trajectory node ──
@@ -123,14 +143,14 @@ export default function MapView({ locations, activeFilter, onMarkerClick, trajec
       zoomControl={false}
     >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
       />
       {filtered.map((loc) => (
         <Marker
           key={loc.id}
           position={loc.coordinates}
-          icon={INK_MARKER}
+          icon={buildLabeledMarker(loc)}
           eventHandlers={{ click: () => onMarkerClick(loc) }}
         />
       ))}

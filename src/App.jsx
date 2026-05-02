@@ -39,6 +39,14 @@ export default function App() {
   const [activeFilter, setActiveFilter] = useState('全部')
   const [selectedLocation, setSelectedLocation] = useState(null)
   const [selectedCharacterId, setSelectedCharacterId] = useState('')
+  const [selectedNovels, setSelectedNovels] = useState([])
+
+  const novelList = useMemo(() => {
+    const set = new Set()
+    characters.forEach((ch) => ch.novels.forEach((n) => set.add(n)))
+    locations.forEach((loc) => loc.novels.forEach((n) => set.add(n)))
+    return [...set].sort()
+  }, [])
 
   const selectedCharacter = useMemo(
     () => characters.find((c) => c.id === selectedCharacterId) || null,
@@ -49,6 +57,25 @@ export default function App() {
     () => resolveTrajectory(selectedCharacter),
     [selectedCharacter],
   )
+
+  const filteredCharacters = useMemo(() => {
+    if (selectedNovels.length === 0) return characters
+    return characters.filter((ch) => ch.novels.some((n) => selectedNovels.includes(n)))
+  }, [selectedNovels])
+
+  const filteredLocations = useMemo(() => {
+    let result = locations
+    if (selectedNovels.length > 0) {
+      result = result.filter((loc) => loc.novels.some((n) => selectedNovels.includes(n)))
+    }
+    return result
+  }, [selectedNovels])
+
+  function handleNovelToggle(novel) {
+    setSelectedNovels((prev) =>
+      prev.includes(novel) ? prev.filter((n) => n !== novel) : [...prev, novel]
+    )
+  }
 
   // When clicking a character card, clear any open location panel
   function handleCharacterChange(id) {
@@ -65,7 +92,7 @@ export default function App() {
   return (
     <div className="relative w-full h-full">
       <MapView
-        locations={locations}
+        locations={filteredLocations}
         activeFilter={activeFilter}
         onMarkerClick={handleMarkerClick}
         trajectory={trajectory}
@@ -77,6 +104,10 @@ export default function App() {
         selectedCharacterId={selectedCharacterId}
         onCharacterChange={handleCharacterChange}
         characters={characters}
+        selectedNovels={selectedNovels}
+        onNovelToggle={handleNovelToggle}
+        novelList={novelList}
+        filteredCharacters={filteredCharacters}
       />
       <Sidebar
         location={selectedLocation}
