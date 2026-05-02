@@ -114,6 +114,16 @@ export default function App() {
         character={selectedCharacter}
         onClose={() => { setSelectedLocation(null); setSelectedCharacterId('') }}
       />
+      <div
+        className="absolute bottom-2 left-1/2 -translate-x-1/2 z-[1000] text-[11px] text-center px-4 py-1 rounded"
+        style={{
+          color: '#8b7355',
+          backgroundColor: 'rgba(244,234,222,0.85)',
+          maxWidth: '600px',
+        }}
+      >
+        本项目为个人基于对金庸武侠世界的喜爱而开发的非商业练手项目，仅供学习与技术交流使用。项目中涉及的人物、地名、武功等所有相关 IP 版权均归金庸先生及原版权方所有。
+      </div>
     </div>
   )
 }
