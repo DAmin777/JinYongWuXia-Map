@@ -10,11 +10,9 @@ locations.forEach((loc) => {
   locMap[loc.id] = { coordinates: loc.coordinates, name: loc.name }
 })
 
-/** Resolve a character's trajectory to coordinate points, auto-generating from core_location_id + related_locations if needed */
 function resolveTrajectory(char) {
   if (!char) return null
 
-  // If character has pre-defined detailed trajectory
   if (char.trajectory) {
     return char.trajectory
       .filter((t) => locMap[t.location_id])
@@ -24,7 +22,6 @@ function resolveTrajectory(char) {
       })
   }
 
-  // Auto-generate from core_location_id + related_locations
   const ids = [char.core_location_id, ...(char.related_locations || [])]
   const valid = ids.filter((id) => locMap[id])
   if (valid.length < 2) return null
@@ -40,6 +37,7 @@ export default function App() {
   const [selectedLocation, setSelectedLocation] = useState(null)
   const [selectedCharacterId, setSelectedCharacterId] = useState('')
   const [selectedNovels, setSelectedNovels] = useState([])
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const novelList = useMemo(() => {
     const set = new Set()
@@ -77,16 +75,16 @@ export default function App() {
     )
   }
 
-  // When clicking a character card, clear any open location panel
   function handleCharacterChange(id) {
     setSelectedCharacterId(id)
     setSelectedLocation(null)
+    setMobileMenuOpen(false)
   }
 
-  // When clicking a map marker, clear character selection
   function handleMarkerClick(loc) {
     setSelectedLocation(loc)
     setSelectedCharacterId('')
+    setMobileMenuOpen(false)
   }
 
   return (
@@ -108,6 +106,9 @@ export default function App() {
         onNovelToggle={handleNovelToggle}
         novelList={novelList}
         filteredCharacters={filteredCharacters}
+        mobileMenuOpen={mobileMenuOpen}
+        onMobileMenuToggle={() => setMobileMenuOpen((v) => !v)}
+        onMobileMenuClose={() => setMobileMenuOpen(false)}
       />
       <Sidebar
         location={selectedLocation}
